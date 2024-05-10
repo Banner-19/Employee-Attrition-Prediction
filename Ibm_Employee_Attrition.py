@@ -1,3 +1,7 @@
+# @Author: Bhaskar Banerjee
+# Team: Perfect Cube
+# Contact: bhaskarbanerjee1903@gmail.com
+
 # Import necessary libraries
 import pandas as pd
 from sklearn.model_selection import train_test_split
