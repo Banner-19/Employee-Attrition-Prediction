@@ -13,3 +13,28 @@ Here, I am going to use 5 simple steps to analyze Employee Attrition using Pytho
 3. DIVIDING THE DATA into TWO PARTS “TRAINING” AND “TESTING”
 4. BUILD UP THE MODEL USING “TRAINING DATA SET”
 5. DO THE ACCURACY TEST USING “TESTING DATA SET”
+
+
+## Requirements
+Dependency requirements for the analysis of employee attrition prediction:
+
+1. __Python 3.x:__ Python is the programming language used for data analysis and model development.
+2. __pandas:__ This library is used for data manipulation and analysis, particularly for handling structured data.
+3. __scikit-learn:__ Scikit-learn is a machine learning library in Python that provides simple and efficient tools for data mining and data analysis.
+4. __XGBoost:__ XGBoost is an optimized gradient boosting library designed for efficiency, speed, and performance.
+5. __TensorFlow and Keras:__ These libraries are used for building and training neural network models.
+6. __matplotlib and seaborn:__ These libraries are used for data visualization to gain insights from the data.
+
+You can install these dependencies using pip, the Python package manager, by running the following commands:
+```bash
+pip install pandas scikit-learn xgboost tensorflow matplotlib seaborn
+```
+Make sure to replace tensorflow with tensorflow-cpu if you want to install the CPU-only version of TensorFlow to reduce installation size and avoid potential compatibility issues with GPU drivers.
+
+## How to run project
+* First install the above libraries mentioned in the Requirements.
+* If you want to run the __Ibm_Employee_Attrition.py__ just run the following command in terminal:
+```bash
+python run Ibm_Employee_Attrition.py
+```
+* If you want to run the __Ibm_employee_attrition.ipynb__ just click on the __Run All__ button in vs code.
