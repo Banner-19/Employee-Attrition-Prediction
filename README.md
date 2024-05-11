@@ -35,6 +35,6 @@ Make sure to replace tensorflow with tensorflow-cpu if you want to install the C
 * First install the above libraries mentioned in the Requirements.
 * If you want to run the __Ibm_Employee_Attrition.py__ just run the following command in terminal:
 ```bash
-python run Ibm_Employee_Attrition.py
+python Ibm_Employee_Attrition.py
 ```
 * If you want to run the __Ibm_employee_attrition.ipynb__ just click on the __Run All__ button in vs code.
